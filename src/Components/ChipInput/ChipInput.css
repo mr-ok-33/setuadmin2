@@ -1,0 +1,73 @@
+.chip-input {
+    margin-bottom: 15px;
+  }
+  
+  .chip-input label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .chips-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .chip {
+    display: flex;
+    align-items: center;
+    background-color: #e0e0e0;
+    padding: 6px 12px;
+    border-radius: 16px;
+    font-size: 14px;
+  }
+  
+  .chip-remove {
+    background: none;
+    border: none;
+    margin-left: 8px;
+    cursor: pointer;
+    color: #666;
+    display: flex;
+    align-items: center;
+  }
+  
+  .chip-remove:hover {
+    color: #333;
+  }
+  
+  .chip-input-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .chip-input-wrapper input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .chip-add-btn {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .chip-add-btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  .chip-add-btn:hover:not(:disabled) {
+    background-color: #45a049;
+  }
